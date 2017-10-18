@@ -1,0 +1,93 @@
+.chat-container {
+    max-width: 75% !important;
+}
+
+.inner-tab {
+    height: 330px !important;
+}
+
+.form-error-message {
+    margin-top: 40px;
+}
+
+.dialog-body {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+}
+
+.dialog-content {
+    position: relative;
+    display: inline-block;
+    padding: 5px 13px;
+    margin: 0 0 30px 5px;
+    max-width: 90%;
+    padding-bottom: 4px;
+    clear: both;
+    color: #fff;
+    background-color: #7986cb;
+    border-radius: 4px;
+}
+
+.dialog-content:before {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 0;
+    height: 0;
+    content: '';
+    border: 10px solid transparent;
+    border-top-color: #7986cb;
+}
+
+.my-dialog-content {
+    position: relative;
+    display: inline-block;
+    padding: 5px 13px;
+    margin: 0 0 30px 5px;
+    max-width: 90%;
+    padding-bottom: 4px;
+    clear: both;
+    color: #fff;
+    background-color: #9c27b0;
+    border-radius: 4px;
+}
+
+.my-dialog-content:before {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 0;
+    height: 0;
+    content: '';
+    border: 10px solid transparent;
+    border-top-color: #9c27b0;
+}
+
+
+.md-avatar {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 16px;
+    border-radius: 50%;
+    box-sizing: content-box;
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    flex: none;
+    width: 40px;
+    height: 40px;
+}
+
+.avater-received {
+    float: left;
+}
+
+.received-icon {
+    margin-left: 10px;
+    float: right;
+}
+
+
+.message-text{
+    display: inline-block;
+}
